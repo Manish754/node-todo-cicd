@@ -61,7 +61,7 @@ app.get('/todo', function (req, res) {
                 clickHandler: "func1();"
             });
         } else {
-            res.redirect('/todo');
+            res.redirect('/Todo');
         }
     })
 
